@@ -1,0 +1,14 @@
+{
+  "name": "oauth-example",
+  "version": "1.0.0",
+  "description": "An example of OAuth 2.0 flow using Spotify as authentication service",
+  "main": "index.js",
+  "type": "module",
+  "author": "Lorenzo Polverelli <lorenzo.polverelli13@gmail.com>",
+  "license": "WTFPL",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "got": "^11.8.2"
+  }
+}
