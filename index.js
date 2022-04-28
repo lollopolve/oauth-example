@@ -47,7 +47,7 @@ app.get("/auth/callback", async (req, res) => {
     });
 
     const accessToken = JSON.parse(response.body);
-    res.send({ token: accessToken["access_token"] });
+    res.send(accessToken);
   } catch (err) {
     res.send({ error: err.toString() });
   }
